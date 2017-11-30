@@ -18,6 +18,7 @@ int ch;
 int main(void) {
 
 	int i;
+	int a, b;
 	count=100;
 
 	//Exe1. Classic Hello World.
@@ -92,6 +93,14 @@ int main(void) {
 	f13();
 	puts("\n");
 
+	//Exe14.If-Else
+	puts("14)");
+	printf("Inserisci valore intero a: ");
+	scanf("%d",&a);
+	printf("Inserisci valore intero b: ");
+	scanf("%d",&b);
+	f14(a,b);
+	puts("\n");
 
 	return EXIT_SUCCESS;
 }

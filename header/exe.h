@@ -39,4 +39,6 @@ void f12(int p);
 
 void f13(void);
 
+void f14(int a,int b);
+
 #endif /* EXE1_H_ */
