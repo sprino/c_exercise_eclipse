@@ -8,6 +8,7 @@
 #include <stdlib.h>
 
 #include<ctype.h> /*for toupper, function character conversion.*/
+#include<string.h>
 
 #ifndef EXE1_H_
 #define EXE1_H_
