@@ -24,7 +24,7 @@ void f13(void)
 	}
 	printf("\nThe numbers of character is: %d\n", i);
 
-	printf("\nIndovina la stringa?:");
+	printf("\nScrivi una stringa di lughezza uguale alla mia:");
 	scanf("%s",string);
 	if(strlen(string)==strlen("casa"))
 		printf("\nOK, hai indovinato");
