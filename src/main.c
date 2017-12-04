@@ -102,6 +102,12 @@ int main(void) {
 	f14(a,b);
 	puts("\n");
 
+	//Exe15.Conditional Operator: ?
+	puts("15)");
+	f15();
+	puts("\n");
+
+
 	return EXIT_SUCCESS;
 }
 
