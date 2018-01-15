@@ -24,4 +24,12 @@ void l_11();
 
 void l_12();
 
+void l_14();
+
+void l_15();
+
+void l_17();
+
+void l_18();
+
 #endif 						/*Chiudi EXE1_H_ */

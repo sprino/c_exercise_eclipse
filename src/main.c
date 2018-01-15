@@ -34,6 +34,28 @@ int main(void) {
 	l_12();
 	puts("\n");
 
+	/*Lezione 14. Operatori aritmetici.*/
+	puts("5)");
+	l_14();
+	puts("\n");
+
+	/*Lezione 15. Operatori di confronto e logici.*/
+	puts("6)");
+	l_15();
+	puts("\n");
+
+	/*Lezione 17. Operazioni di imput ed output, getchar(), printf(), scanf().*/
+	puts("7)");
+	l_17();
+	puts("\n");
+
+	/*Lezione 18. Costrutti condizionali.*/
+	puts("8)");
+	l_18();
+	puts("\n");
+
+
+
 	return EXIT_SUCCESS;
 }
 
