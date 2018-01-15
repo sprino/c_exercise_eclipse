@@ -1,47 +1,27 @@
 /*
  * exe1.h
- *
+ * Contiene i prototipi delle funzioni usate e gli header (file radice) richiamati per usare le relative funzioni.
+ * Gli header contengono prototipi delle funzioni e vengono richiamati per poter usare le funzioni del linguaggio c (in questo caso).
  *  Created on: 08 ott 2017
  *      Author: Saverio P. Zangaro
  */
-#include <stdio.h>
+#include <stdio.h>			/*Per usare printf() etc...*/
 #include <stdlib.h>
 
-#include<ctype.h> /*for toupper, function character conversion.*/
-#include<string.h>
+#include<ctype.h>			/*Per la funzione toupper, funzione che converte i caratteri da minuscolo a maiuscolo.*/
+#include<string.h>			/*Per manipolare le stringhe.*/
 
-#ifndef EXE1_H_
+#ifndef EXE1_H_				/*Questo è un "include guard", serve per evitare che si generino conflitti con altri header.*/
 #define EXE1_H_
 
-void f1(void);
+//Prototipi delle funzioni, dichiarate nei relativi file.
 
-void f2(void);
-void f2_2(void);
+void l_8 ();
 
-void f3(const char *str);
+void l_9();
 
-void f4(int s_start);
+void l_11();
 
-void f5(void);
+void l_12();
 
-void f6(void);
-
-void f7(void);
-
-void f8(void);
-
-void f9(void);
-
-void f10(int i);
-
-void f11(void);
-
-void f12(int p);
-
-void f13(void);
-
-void f14(int a,int b);
-
-void f15(void);
-
-#endif /* EXE1_H_ */
+#endif 						/*Chiudi EXE1_H_ */
