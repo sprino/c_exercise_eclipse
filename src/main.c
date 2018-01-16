@@ -12,56 +12,95 @@
 
 #include"../header/exe.h"
 
-int main(void) {
-
+int main(void)
+{
 	/*Devo disabilitare il buffer per stdout in maniera tale da poter vedere le richieste di inserimento nell Console di eclipse.*/
 	setbuf(stdout, NULL);
 
-	/*Lesson 8. Classico Hello world..*/
-	puts("8)");
-	l_8();
-	puts("\n");
+	int sel;
+	char s_out[10];
+	char s_out_conf[10]="exit";
 
-	/*Lesson 9. Use della funzione printf() per stampare a video.*/
-	puts("9)");
-	l_9();
-	puts("\n");
+	system("cls");
 
-	/*Lesson 11. Inizializzazione e dichiarazione.*/
-	puts("11)");
-	l_11();
-	puts("\n");
+	printf("\nQueste sono le lezioni relative al linguaggio c, sviluppate seguendo la guida di html.it al seguente link:\n\n"
+					"http://www.html.it/guide/guida-c/\n\n"
+					"Premere invio per accedere alle lezioni.\n"
+					"Premere exit per uscire\n");
 
-	/*Lesson 12. Tipi di variabile.*/
-	puts("12)");
-	l_12();
-	puts("\n");
+	while(strcmp(gets(s_out),s_out_conf)!=0)
+	{
+		/*pulisco lo schermo, funziona solo da terminale*/
+		system("cls");
 
-	/*Lezione 14. Operatori aritmetici.*/
-	puts("14)");
-	l_14();
-	puts("\n");
+		/*Stampo a video il menu di scelta*/
+		printf("\nEcco le lezioni disponibili, digita exit per uscire:\n"
+				"	8)Hello world\n"
+				"	9)Uso della funzione printf()\n"
+				"	11)Inizializzazione e dichiarazione.\n"
+				"	12)Tipi di variabile.\n"
+				"	14)Operatori aritmetici.\n"
+				"	15)Operatori di confronto e logici.\n"
+				"	17)Operatori di imput ed output.\n"
+				"	18)Costrutti condizionali.\n"
+				"	19)Operatore ternario & switch_case\n"
+				"Fai la tua scelta, digita il numero corrispondente:");
 
-	/*Lezione 15. Operatori di confronto e logici.*/
-	puts("15)");
-	l_15();
-	puts("\n");
+		sel=000;
+		scanf("%d",&sel);
 
-	/*Lezione 17. Operazioni di imput ed output, getchar(), printf(), scanf().*/
-	puts("17)");
-	l_17();
-	puts("\n");
+		switch(sel)
+		{
+			case 8:
+				l_8();
+				break;
 
-	/*Lezione 18. Costrutti condizionali.*/
-	puts("18)");
-	l_18();
-	puts("\n");
+			case 9:
+				l_9();
+				break;
 
-	/*Lezione 19. Operatore ternario & switch case.*/
-	puts("19)");
-	l_19();
-	puts("\n");
+			case 11:
+				l_11();
+				break;
 
+			case 12:
+				l_12();
+				break;
+
+			case 14:
+				l_14();
+				break;
+
+			case 15:
+				l_15();
+				break;
+
+			case 17:
+				l_17();
+				break;
+
+			case 18:
+				l_18();
+				break;
+
+			case 19:
+				l_19();
+				break;
+
+			default:
+				if(strcmp(gets(s_out),s_out_conf)==0)
+				{
+					printf("Bye, Bye");
+					return EXIT_SUCCESS;
+				}
+				else
+				{
+					printf("Nessuna lezione selezionata, scegli una lezione dal menu, oppure se hai premuto exit, ciao ciao...\n");
+					break;
+				}
+		}
+	}
+	printf("Bye, Bye");
 	return EXIT_SUCCESS;
 }
 

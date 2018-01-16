@@ -9,6 +9,11 @@
 
 void l_8()
 {
-	//Stampa la scritta tra parentesi.
-	printf("Hello World");
+	puts("\n-------------------------------------------------------------------------\n");	/*Crea una separazione visiva tra menu e risultati.*/
+
+	printf("Hello World");	//stampa la scritta tra parentesi
+
+	puts("\n-------------------------------------------------------------------------\n");
+
+	system("PAUSE");																		/*Blocca il sistema chiedendo la pressione di un tasto*/
 }

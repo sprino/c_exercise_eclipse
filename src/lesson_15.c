@@ -16,6 +16,8 @@ void l_15()
 	int b=1;
 	int z1,z2;
 
+	puts("\n-------------------------------------------------------------------------\n");
+
 	/*Operatori di confronto*/
 	if(a==b)										//Uguaglianza == .
 		printf("Sono uguali\n");
@@ -32,4 +34,9 @@ void l_15()
 
 	z2=a || b;
 	printf("\nz2 è il risultato della OR tra a e b:%d",z2);
+
+	puts("\n-------------------------------------------------------------------------\n");
+
+	system("PAUSE");
+
 }

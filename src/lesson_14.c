@@ -18,6 +18,8 @@ void l_14()
 	x=5;
 	y=2;
 
+	puts("\n-------------------------------------------------------------------------\n");
+
 	//Sviluppo.
 	z=x+y;
 	printf("La somma tra x=5 ed y=2 è:%5.2f\n",z); /*%m.d con m ampiezza del campo e d la precisione (n° di decimali).*/
@@ -36,5 +38,9 @@ void l_14()
 
 	z*=y+3;
 	printf("Sommo 3 ad y=2 e moltiplico tutto per l'ultimo valore di z in forma abbreviata (z*=y+3):%5.2f",z);
+
+	puts("\n-------------------------------------------------------------------------\n");
+
+	system("PAUSE");
 
 }

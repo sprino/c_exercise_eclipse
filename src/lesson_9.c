@@ -13,6 +13,11 @@ void l_9()
 	 * %d:Scrive il valore inserito in prima posizione dopo le parentesi "" come decimale intero con segno.
 	 * %c:Scrive il valore inserito in seconda posizione dopo le parentesi "" come carattere.
 	 */
+	puts("\n-------------------------------------------------------------------------\n");
+
 	printf("ASCII value is = %d, Character = %c", 75, 75);
 
+	puts("\n-------------------------------------------------------------------------\n");
+
+	system("PAUSE");
 }
