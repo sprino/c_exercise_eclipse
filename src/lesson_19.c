@@ -28,6 +28,8 @@ void l_19()
 
 	a==b ? puts("I numeri sono uguali.") : puts("I numeri sono diversi.");
 
+	system("PAUSE"); /*Blocca altrimenti il successivo system_cls pulisce lo schermo e non si ha il tempo di vedere il risultato.*/
+
 	/*Switch case. Utile per creare di menu di scelta.
 	 *Strcmp() confronta le stringhe e quando è stato digitato exit esce dal ciclo e torna al menu del main. Restituisce 0 se sono uguali.*/
 	while(strcmp(gets(s_out),s_out_conf)!=0)

@@ -34,4 +34,8 @@ void l_18();
 
 void l_19();
 
+void l_20();
+
+
+
 #endif 						/*Chiudi EXE1_H_ */

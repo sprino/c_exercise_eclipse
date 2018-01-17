@@ -35,15 +35,16 @@ int main(void)
 
 		/*Stampo a video il menu di scelta*/
 		printf("\nEcco le lezioni disponibili, digita exit per uscire:\n"
-				"	8)Hello world\n"
-				"	9)Uso della funzione printf()\n"
+				"	8)Hello world.\n"
+				"	9)Uso della funzione printf().\n"
 				"	11)Inizializzazione e dichiarazione.\n"
 				"	12)Tipi di variabile.\n"
 				"	14)Operatori aritmetici.\n"
 				"	15)Operatori di confronto e logici.\n"
 				"	17)Operatori di imput ed output.\n"
 				"	18)Costrutti condizionali.\n"
-				"	19)Operatore ternario & switch_case\n"
+				"	19)Operatore ternario & switch_case\n."
+				"	20)Cicli: while, do while, for, break, continue.\n"
 				"Fai la tua scelta, digita il numero corrispondente:");
 
 		sel=000;
@@ -86,6 +87,12 @@ int main(void)
 			case 19:
 				l_19();
 				break;
+
+			case 20:
+				l_20();
+				break;
+
+
 
 			default:
 				if(strcmp(gets(s_out),s_out_conf)==0)
