@@ -10,9 +10,9 @@
 void l_18()
 {
 	/*In c non esiste il tipo booleano (true e false) quindi una condizione è vera se vale 1 mentre e falsa se vale 0*/
-	int risultato_esame=0;
+	system("cls");
 
-	puts("\n-------------------------------------------------------------------------\n");
+	int risultato_esame=0;
 
 	printf("Inserisci il risultato del tuo esame e leggi il risultato:");
 	scanf("%i",&risultato_esame);
@@ -33,8 +33,5 @@ void l_18()
 		printf("Vieni durante l'orale per firmare oppure prenotarti per aumentare il voto, che può anche scendere ;-).");
 	}
 
-	puts("\n-------------------------------------------------------------------------\n");
-
 	system("PAUSE");
-
 }

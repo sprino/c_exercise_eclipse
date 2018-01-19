@@ -10,6 +10,8 @@
 void l_20()
 {
 	/*Creo un ciclo while che stampa a video i numeri di un indice i fino a quando questo non raggiunge il numero di 10, vanno da 0 a 9.*/
+	system("cls");
+
 	int i=0;
 	int high;
 	int low;
@@ -43,7 +45,6 @@ void l_20()
 	{
 		printf("high=%d---low=%d\n",high,low);
 	}
-
 
 	/*break-->esce da un ciclo||continue-->salta una iterazione del ciclo, non istruzione successiva...*/
 	printf("Testiamo l'istruzione break (esce da un ciclo) e continue (salta una iterazione del ciclo, non istruzione...ma iterazione!)\n"

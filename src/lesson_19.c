@@ -11,13 +11,13 @@
 
 void l_19()
 {
+	system("cls");
+
 	int a;
 	int b;
 	int sel;
 	char s_out[10];					/*Stringa nella quale viene inserita quella digitata.*/
 	char s_out_conf[10]="exit";		/*Stringa da digitare per uscire dal ciclo while del menu di selezione.*/
-
-	puts("\n-------------------------------------------------------------------------\n");
 
 	/*Operatore ternario. Condizione ? Se_vera_faccio_questo : Se_falsa_faccio_questo*/
 	printf("Inserisci il primo numero per il confronto:");

@@ -45,6 +45,8 @@ int main(void)
 				"	18)Costrutti condizionali.\n"
 				"	19)Operatore ternario & switch_case\n."
 				"	20)Cicli: while, do while, for, break, continue.\n"
+				"	22)Array e cicli for.\n"
+				"   23)Array multidimensionali.\n"
 				"Fai la tua scelta, digita il numero corrispondente:");
 
 		sel=000;
@@ -55,59 +57,55 @@ int main(void)
 			case 8:
 				l_8();
 				break;
-
 			case 9:
 				l_9();
 				break;
-
 			case 11:
 				l_11();
 				break;
-
 			case 12:
 				l_12();
 				break;
-
 			case 14:
 				l_14();
 				break;
-
 			case 15:
 				l_15();
 				break;
-
 			case 17:
 				l_17();
 				break;
-
 			case 18:
 				l_18();
 				break;
-
 			case 19:
 				l_19();
 				break;
-
 			case 20:
 				l_20();
 				break;
-
-
+			case 22:
+				l_22();
+				break;
+			case 23:
+				l_23();
+				break;
 
 			default:
-				if(strcmp(gets(s_out),s_out_conf)==0)
+				if(strcmp(gets(s_out),s_out_conf)==0)		/*strcmp() torna zero se il contenuto di s_out_conf() è
+															  uguale alla stringa inserita dall'utente letta dalla funzione gets(s_out).*/
 				{
-					printf("Bye, Bye");
+					byebye();								/*Funzione che pulisce lo schermo e saluta l'utente.*/
 					return EXIT_SUCCESS;
 				}
 				else
 				{
-					printf("Nessuna lezione selezionata, scegli una lezione dal menu, oppure se hai premuto exit, ciao ciao...\n");
+					system("cls");
+					printf("Nessuna lezione selezionata, scegli una lezione dal menu...\n");
 					break;
 				}
 		}
 	}
-	printf("Bye, Bye");
-	return EXIT_SUCCESS;
+byebye();
+return EXIT_SUCCESS;
 }
-

@@ -36,6 +36,10 @@ void l_19();
 
 void l_20();
 
+void l_22();
 
+void l_23();
+
+void byebye();
 
 #endif 						/*Chiudi EXE1_H_ */

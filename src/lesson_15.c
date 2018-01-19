@@ -12,11 +12,12 @@ void l_15()
 	/*Sostituendo i valori di a e di b cambia il risultato.
 	 * P.S. NOn tenete in considerazione del costrutto if per ora...
 	 * */
+
+	system("cls");
+
 	int a=0;
 	int b=1;
 	int z1,z2;
-
-	puts("\n-------------------------------------------------------------------------\n");
 
 	/*Operatori di confronto*/
 	if(a==b)										//Uguaglianza == .
@@ -35,8 +36,5 @@ void l_15()
 	z2=a || b;
 	printf("\nz2 è il risultato della OR tra a e b:%d",z2);
 
-	puts("\n-------------------------------------------------------------------------\n");
-
 	system("PAUSE");
-
 }

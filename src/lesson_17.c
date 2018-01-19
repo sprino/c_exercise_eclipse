@@ -9,11 +9,11 @@
 
 void l_17()
 {
+	system("cls");
+
 	char ch;
 	int i=0;
 	char stringa[100];
-
-	puts("\n-------------------------------------------------------------------------\n");
 
 	/*Conta il numero di caratteri che vengono digitati ed inverte minuscole con maiuscole, per terminare bisogna digitare il carattere @ e premere invio.
 	 * Inserire la stringa e premere invio.
@@ -37,8 +37,5 @@ void l_17()
 	scanf("%s",stringa);										//per la stringa non devo passare l'indirizzo, perchè è un array e stringa è già un indirizzo.
 	printf("La stringa inserita è:%s\n",stringa);
 
-	puts("\n-------------------------------------------------------------------------\n");
-
 	system("PAUSE");
-
 }
