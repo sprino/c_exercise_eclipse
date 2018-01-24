@@ -46,7 +46,10 @@ int main(void)
 				"	19)Operatore ternario & switch_case\n."
 				"	20)Cicli: while, do while, for, break, continue.\n"
 				"	22)Array e cicli for.\n"
-				"   23)Array multidimensionali.\n"
+				"	23)Array multidimensionali.\n"
+				"	24)Funzioni.\n"
+				"	25)Struct,Typedef,Union.\n"
+				"	26)Casting. Enumerazioni. Variabili statiche.\n"
 				"Fai la tua scelta, digita il numero corrispondente:");
 
 		sel=000;
@@ -89,6 +92,15 @@ int main(void)
 				break;
 			case 23:
 				l_23();
+				break;
+			case 24:
+				l_24();
+				break;
+			case 25:
+				l_25();
+				break;
+			case 26:
+				l_26();
 				break;
 
 			default:

@@ -40,6 +40,15 @@ void l_22();
 
 void l_23();
 
+void l_24();
+double elevamento_potenza(double valore, int potenza);	/*Prototipo della funzione usata nella lezione 24.*/
+void stampa_m_array(int dimx,int dimy,int m_array[][10]); /*Prototipo della funzione che stampa un array multidiensionale.*/
+
+void l_25();
+
+void l_26();
+void statica();
+
 void byebye();
 
 #endif 						/*Chiudi EXE1_H_ */

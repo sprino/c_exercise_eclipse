@@ -11,8 +11,9 @@ void l_8()
 {
 	system("cls");
 
-	printf("Hello World");	//stampa la scritta tra parentesi
+	printf("Hello World");	/*stampa la scritta tra parentesi*/
 
 	puts("\n");
-	system("PAUSE");																		/*Blocca il sistema chiedendo la pressione di un tasto*/
+
+	system("PAUSE");		/*Blocca il sistema chiedendo la pressione di un tasto*/
 }
